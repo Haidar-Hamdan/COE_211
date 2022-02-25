@@ -1,0 +1,14 @@
+package coe_211_;
+
+public class Employee{
+String FirstName;
+String LastName;
+int Age;
+double Salery;
+Employee (String first,String last,int age,double Sal){
+    FirstName = first;
+    LastName= last;
+    Age= age;
+    Salery= Sal;
+    }
+}

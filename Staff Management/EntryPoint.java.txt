@@ -1,0 +1,25 @@
+package coe_211_;
+import java.util.*;
+
+public class Entrypoint {
+    public static void main(String args[]){
+    
+        int i=0;
+        int  rand=(int)(Math.random() * 10+1);
+           while(i<rand){
+               Scanner scan= new Scanner(System.in);
+   System.out.print("Please input the emplyee's: ");
+   System.out.print("First name: ");
+         String FirstName=scan.nextLine();    
+    System.out.print("Last name:");
+    String LastName=scan.nextLine();
+    System.out.print("Age: ");
+    int Age=scan.nextInt();
+    System.out.print("Salery: ");
+    double Salery =scan.nextDouble();
+    System.out.println("Emplyee Information; "+FirstName+" "+LastName+", "+Age+", "+Salery);
+   i++;
+   int Execution = rand-i;
+   System.out.println("You have "+Execution+" insertions left");
+    }
+}}
