@@ -1,0 +1,28 @@
+
+package lab6;
+
+import java.util.Scanner;
+
+public class Employee {
+String FirstName;
+String LastName;
+int Age;
+double Salery;
+
+ public void emp(){
+  
+ 
+               Scanner scan= new Scanner(System.in);
+   System.out.print("Please input the emplyee's: ");
+   System.out.print("First name: ");
+          FirstName=scan.nextLine();    
+    System.out.print("Last name:");
+    LastName=scan.nextLine();
+    System.out.print("Age: ");
+     Age=scan.nextInt();
+    System.out.print("Salery: ");
+    Salery =scan.nextDouble();
+    System.out.println("Emplyee Information; "+FirstName+" "+LastName+", "+Age+", "+Salery);
+   
+    }
+}
